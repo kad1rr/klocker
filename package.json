@@ -1,0 +1,25 @@
+{
+  "name": "klocker",
+  "version": "0.0.1",
+  "description": "An easy, clean and fast way to encrypt your files via command line.",
+  "main": "klocker.js",
+  "type": "module",
+  "bin": {
+    "klocker": "./klocker.js",
+    "klock": "./klocker.js",
+    "lock": "./klocker.js"
+  },
+  "dependencies": {
+    "@types/prompts": "^2.4.7",
+    "chalk": "^5.3.0",
+    "prompts": "^2.4.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kad1rr/klocker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kad1rr/klocker/issues"
+  }
+}
